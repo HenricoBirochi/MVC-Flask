@@ -1,9 +1,17 @@
-astroid==4.0.1
+astroid ==4.0.1
+cfgv==3.4.0
 colorama==0.4.6
 dill==0.4.0
+distlib==0.4.0
+filelock==3.20.0
+identify==2.6.15
 isort==7.0.0
 mccabe==0.7.0
+nodeenv==1.9.1
 pip==25.3
 platformdirs==4.5.0
+pre_commit==4.3.0 # Serve para fazer uma acao antes de um commit, ele faz essa antes de executar o comando de commit
 pylint==4.0.2
+PyYAML==6.0.3
 tomlkit==0.13.3
+virtualenv==20.35.4
