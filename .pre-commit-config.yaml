@@ -1,8 +1,8 @@
-repos:
-  - repo: local
-    hooks:
-      - id: pylint
-        name: pylint
+repos: # Para usar o pre-commit voce deve baixar ele com 'pip install pre-commit'
+  - repo: local # E depois, dentro de um repositorio seu que tenha o .git, ou seja,
+    hooks: # Que seja um repositorio git, de o comando 'pre-commit install'
+      - id: pylint # Ai voce pode usar esse script pra dar um pylint nesse codigo inteiro
+        name: pylint # Antes de commitar
         entry: pylint
         language: system
         types: [python]

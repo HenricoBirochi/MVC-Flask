@@ -1,5 +1,7 @@
 [MAIN]
 
+# Para criar esse arquivo use o comando 'pylint --generate-rcfile > .pylintrc'
+
 disable=
       C0114, # missing-module-docstring
       C0115, # missing-class-docstring
