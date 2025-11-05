@@ -23,3 +23,5 @@ SQLAlchemy==2.0.44
 tomlkit==0.13.3
 typing_extensions==4.15.0
 virtualenv==20.35.4
+
+# Pra atualizar o requirements.txt ==> 'venv/src/pip3 freeze > requirements.txt'
