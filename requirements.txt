@@ -25,3 +25,5 @@ typing_extensions==4.15.0
 virtualenv==20.35.4
 # Para jogar todas as suas dependencias do python no requirements.txt
 # Use o comando pip 'freeze > requirements.txt'
+
+# Pra atualizar o requirements.txt ==> 'venv/src/pip3 freeze > requirements.txt'
