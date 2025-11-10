@@ -24,4 +24,8 @@ def test_list_pets():
     repo = PetsRepository(mock_connection)
     response = repo.list_pets()
 
+    mock_connection.session.query.assert_called_once_with(PetsTable)
+    mock_connection.session.all.assert_called_once()
+    mock_connection.session.filter.assert_not_called()
+
     assert response[0].name == "dog"
